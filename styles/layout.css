@@ -1,0 +1,121 @@
+body {
+    background-color: #1F2937;
+}
+
+.header-container {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    border: 1px solid #fff;
+    flex-direction: column;
+}
+
+.inner-header {
+    display: flex;
+    flex: auto;
+    width: 70%;
+    height: 60px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navigation {
+    display: flex;
+    flex: auto;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-links ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-links .headerl1 {
+    display: flex;
+    margin: 0 15px 0 15px;
+}
+
+.header-links .headerl2 {
+    display: flex;
+    margin: 0 15px 0 15px;
+}
+
+.header-links .headerl3 {
+    display: flex;
+    margin: 0 15px 0 15px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiles {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.tile1 {
+    display: flex;
+    width: 100%;
+    flex: auto;
+    color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.tilebox1 {
+    display: flex;
+    border: 1px solid #fff;
+    width: 70%;
+    height: 450px;
+}
+
+.tile2 {
+    display: flex;
+    flex: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tilebox2 {
+    display: flex;
+    height: 400px;
+    width: 70%;
+    border: 1px solid #ffffff;
+}
+
+.tile3 {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+.tilebox3 {
+    display: flex;
+    height: 350px;
+    width: 70%;
+    border: 1px solid #ffffff;
+}
