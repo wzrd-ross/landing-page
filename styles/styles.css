@@ -1,8 +1,3 @@
-* {
-    font-family: Roboto;
-}
-
-
 body {
     background-color: #1F2937;
 }
@@ -42,12 +37,57 @@ body {
     font-weight: 350;
 }
 
+.placeholder {
+    background-color: #6E747C;
+    color: #E5E7EB;
+    font-family: Roboto;
+}
+
+
 .tile2 {
     background-color: #f9faf8;
+
+}
+
+.information-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    font-family: Roboto;
+}
+
+.infobox {
+    border: 4px solid;
+    border-color: #3882f6;
+    border-radius: 18px;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+}
+
+.boxsubtext {
+    color: #1f2937;
+    font-family: Roboto;
+    text-align: center;
 }
 
 .tile3 {
     background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quote p {
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .tile4 {
@@ -56,10 +96,4 @@ body {
 
 .footer {
     background-color: #1F2937;
-}
-
-.placeholder {
-    background-color: #6E747C;
-    color: #E5E7EB;
-    font-family: Roboto;
 }
